@@ -104,7 +104,7 @@
     $(document).ready(function () {
       $.ajax({
         type: "GET",
-        'https://docs.google.com/spreadsheets/d/e/2PACX-1vRsh2Hk5TE2A4PFZGtQgFw2D4EtU6tGiB1h91-emXfSXEZfI2Es7eIOONWwdztpWEIUiy8BKI5ZD_Rv/gviz/tq?tqx=out:csv&sheet=Sheet1',
+        'https://docs.google.com/spreadsheets/d/e/2PACX-1vTZFERC_1yWfGPMFQImNFkLex2QkAPatVjrjIhchP3c89e615zJT3-lgfoLwsV4n8Blzi1WtWlcjxhn/pub?gid=0&single=true&output=csv',
         dataType: "text",
         success: function (csvData) { makeGeoJSON(csvData); }
       });
